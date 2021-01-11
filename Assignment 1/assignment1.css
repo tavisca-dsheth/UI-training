@@ -1,0 +1,85 @@
+* {
+    font-family: monospace;
+    font-size: medium;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    text-align: center;
+}
+
+#heading {
+    display: block;
+    text-align: center;
+}
+
+#addSectionButton{
+    background-color: #99d3eb;
+    border-color: #99d3eb;
+    border-radius: 7px;
+    outline: none;
+    height: 50px;
+    width: 150px;
+}
+
+#sectionContainer{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    flex-wrap: wrap;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+    background-color:white;
+    margin:3%;
+    padding: 5px;
+    border: 1px solid black;
+    max-width: 30%;
+    height: fit-content;
+}
+
+.sectionHeader{
+    display: flex;
+    flex-direction: row;
+    background-color:white;
+}
+
+input {
+    outline: none;
+}
+
+.addNoteButton{
+    margin: 0 3px;
+    background-color: #99d3eb;
+    border: 1px solid black;
+    border-radius: 50%;
+    color: black;
+    content: '\002B';
+    font-size: xx-large;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.sectionBody {
+    display: inherit;
+    flex-direction: column;
+    background-color: white;
+}
+
+.note{
+    background-color: #99d3eb;
+    margin: 10px;
+    padding: 5px;
+    outline: none;
+    height: 130px;
+    border-radius: 7%;
+    border-color: #99d3eb;
+}
